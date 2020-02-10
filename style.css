@@ -1,0 +1,56 @@
+body{
+  background-color: #e1f2fb;
+  font-family: 'EB Garamond', serif;
+
+}
+h1{
+  font-family: 'El Messiri', sans-serif;
+    color: #40e0d0;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.row{
+  margin-top: 75px;
+  margin-bottom: 70px;
+}
+/* .col-sm{
+  position: absolute;
+
+} */
+hr{
+  border-top: 3px dotted #40e0d0;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+img{
+  padding:  20px ;
+  margin-left: 100px;
+
+  border-radius: 50%;
+  width: 210px;
+  position: absolute;
+ animation-name: example;
+ animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+.myName{
+  font-size: 20px;
+  color: #e1f2fb;
+text-align: center;
+  padding:  30px;
+}
+footer{
+
+  background-color: #40e0d0;
+}
+img:hover{
+  width: 250px;
+}
+@keyframes example {
+  0%   {width:210px;}
+
+  50%  {width: 220px;}
+
+  100% {width: 210px;}
+}
